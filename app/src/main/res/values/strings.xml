@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TeachMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_qoidalari">Bizning ilovamizga kirishinggiz bilan bizning xizmat ko’rsatish shartlariga roziliginggizni bildirgan bo’lasiz</string>
+    <string name="Salom">Assalamu aleykum</string>
+</resources>

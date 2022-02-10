@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.teachme.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.teachme.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.teachme.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.teachme.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_createAccountFragment"
+            app:destination="@id/createAccountFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_numberRegistrationFragment"
+            app:destination="@id/numberRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAccountFragment"
+        android:name="com.example.teachme.CreateAccountFragment"
+        android:label="fragment_create_account"
+        tools:layout="@layout/fragment_create_account" >
+        <action
+            android:id="@+id/action_createAccountFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/numberRegistrationFragment"
+        android:name="com.example.teachme.NumberRegistrationFragment"
+        android:label="fragment_number_registration"
+        tools:layout="@layout/fragment_number_registration" >
+        <action
+            android:id="@+id/action_numberRegistrationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.teachme.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.teachme.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/profileSetting"
+        android:name="com.example.teachme.ProfileSetting"
+        android:label="fragment_profile_setting"
+        tools:layout="@layout/fragment_profile_setting" />
+    <fragment
+        android:id="@+id/mentorsFragment"
+        android:name="com.example.teachme.MentorsFragment"
+        android:label="fragment_mentors"
+        tools:layout="@layout/fragment_mentors" />
+    <fragment
+        android:id="@+id/mentorsVisitProfile"
+        android:name="com.example.teachme.MentorsVisitProfile"
+        android:label="fragment_mentors_visit_profile"
+        tools:layout="@layout/fragment_mentors_visit_profile" />
+    <fragment
+        android:id="@+id/mentorsVisitVideoProfile"
+        android:name="com.example.teachme.MentorsVisitVideoProfile"
+        android:label="fragment_mentors_visit_video_profile"
+        tools:layout="@layout/fragment_mentors_visit_video_profile" />
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.example.teachme.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" />
+    <fragment
+        android:id="@+id/courseVisitFragment"
+        android:name="com.example.teachme.CourseVisitFragment"
+        android:label="fragment_course_visit"
+        tools:layout="@layout/fragment_course_visit" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.teachme.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.teachme.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+</navigation>

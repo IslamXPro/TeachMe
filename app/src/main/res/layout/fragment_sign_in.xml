@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SignInFragment">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Email orqali kirish"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        app:layout_constraintTop_toBottomOf="@id/txt1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Email va xavfsizlik parolini kiriting "
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="130dp"
+        android:paddingStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/txt2"
+        android:hint="Email"
+        tools:ignore="RtlSymmetry" />
+    <EditText
+        android:id="@+id/edt_parol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/edt_email"
+        android:hint="Parol"
+        android:inputType="textPassword"
+        tools:ignore="RtlSymmetry" />
+    <ImageView
+        android:id="@+id/see_pswrd_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/edt_parol"
+        app:layout_constraintBottom_toBottomOf="@id/edt_parol"
+        app:layout_constraintRight_toRightOf="@id/edt_parol"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/see_password_img"/>
+    <TextView
+        android:id="@+id/forget_pswrd_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edt_parol"
+        app:layout_constraintLeft_toLeftOf="@id/edt_parol"
+        android:text="Parolinggizni unittinggizmi?"
+        android:textSize="12sp"
+        android:textColor="@color/siniy"
+        android:paddingStart="10dp"
+        tools:ignore="RtlSymmetry" />
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/forget_pswrd_txt"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Kirish"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/yashil"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/accept_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btn_enter"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:text="@string/app_qoidalari"
+        android:textSize="12sp"
+        android:gravity="center"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="gone"
+        android:id="@+id/wait_anim"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/txt2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:lottie_rawRes="@raw/wait_anim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hali ro'yhatdan o'tmaganmisiz?"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ro'hatdan o'tish"
+        android:textColor="@color/siniy"
+        android:textSize="12sp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
