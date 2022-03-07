@@ -5,11 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseExpandableListAdapter
-import com.example.teachme.R
+import com.islamxpro.teachme.R
 import kotlinx.android.synthetic.main.item_child.view.*
 import kotlinx.android.synthetic.main.item_group.view.*
 import models.ChildUser
-import models.TitleUser
 
 var isClicked = true
 class MyExtandableAdapter(val titleList:List<String>,var map:HashMap<String,List<ChildUser>>): BaseExpandableListAdapter(){

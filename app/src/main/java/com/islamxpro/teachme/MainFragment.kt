@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.ViewPagerAdapter
 import android.annotation.SuppressLint
@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.RequiresApi
 import androidx.viewpager.widget.ViewPager
-import com.example.teachme.databinding.FragmentMainBinding
+import com.islamxpro.teachme.databinding.FragmentMainBinding
 
 
 class MainFragment : Fragment() {

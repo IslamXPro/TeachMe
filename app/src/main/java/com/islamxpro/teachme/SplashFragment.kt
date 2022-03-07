@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import android.os.Bundle
 import android.os.Handler
@@ -7,9 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.passregistr.Utils.Back
-import com.example.passregistr.Utils.Back.isHome
-import com.example.teachme.databinding.FragmentSplashBinding
+import Utils.Back.isHome
+import Utils.Back.isRegistr
+import com.islamxpro.teachme.databinding.FragmentSplashBinding
 
 class SplashFragment : Fragment() {
 
@@ -24,7 +24,11 @@ class SplashFragment : Fragment() {
 
         handler = Handler()
         handler.postDelayed({
-            findNavController().navigate(R.id.mainFragment)
+            if (isRegistr) {
+                findNavController().navigate(R.id.mainFragment)
+            } else {
+                findNavController().navigate(R.id.signInFragment)
+            }
         }, 3000)
 
         isHome = false

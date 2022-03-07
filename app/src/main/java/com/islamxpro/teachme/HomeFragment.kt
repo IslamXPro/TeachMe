@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.MainRecycleAdapter
 import adapters.MainRecycleAdapter2
@@ -9,36 +9,29 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.navigation.fragment.findNavController
-import com.example.passregistr.Utils.Back.isHome
-import com.example.teachme.databinding.FragmentHomeBinding
+import Utils.Back.isHome
+import com.islamxpro.teachme.databinding.FragmentHomeBinding
 import models.CourseUser
 
 
 class HomeFragment : Fragment() {
 
-    lateinit var binding: FragmentHomeBinding
-    lateinit var list:ArrayList<CourseUser>
-    lateinit var list2:ArrayList<CourseUser>
-    lateinit var mainRecycleAdapter: MainRecycleAdapter
-    lateinit var mainRecycleAdapter2: MainRecycleAdapter2
+    private lateinit var binding: FragmentHomeBinding
+    private lateinit var list:ArrayList<CourseUser>
+    private lateinit var list2:ArrayList<CourseUser>
+    private lateinit var mainRecycleAdapter: MainRecycleAdapter
+    private lateinit var mainRecycleAdapter2: MainRecycleAdapter2
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
         binding = FragmentHomeBinding.inflate(layoutInflater)
         onResume()
     /*    binding.viewpager.adapter = ViewPagerAdapter(parentFragmentManager)
         binding.viewpager.setOnTouchListener(OnTouchListener { arg0, arg1 -> true })*/
         isHome = true
-
-        binding.btnThis.setOnClickListener {
-            findNavController().navigate(R.id.mentorsFragment)
-        }
-
-
 
      /*   binding.homeBtn.setOnClickListener{
             binding.viewpager.currentItem = 0

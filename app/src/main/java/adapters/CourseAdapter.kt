@@ -6,12 +6,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.R
-import com.example.teachme.databinding.ItemRvBinding
-import com.example.teachme.databinding.ItemRvMycourseBinding
-import com.example.teachme.databinding.ItemSearchRvBinding
+import com.islamxpro.teachme.databinding.ItemRvMycourseBinding
 import models.CourseInfo
-import models.SearchUser
 
 class CourseAdapter (val context: Context, val list: List<CourseInfo>, var myClick: MyClick) : RecyclerView.Adapter<CourseAdapter.Vh>() {
 

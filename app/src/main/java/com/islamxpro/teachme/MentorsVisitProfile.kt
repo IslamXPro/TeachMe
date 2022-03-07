@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.MentorAdapterVideo
 import android.os.Bundle
@@ -6,15 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.os.bundleOf
-import androidx.core.view.size
 import androidx.navigation.fragment.findNavController
-import com.example.teachme.databinding.FragmentMentorsVisitProfileBinding
+import com.islamxpro.teachme.databinding.FragmentMentorsVisitProfileBinding
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_mentors_visit_profile.view.*
 import models.MentorUser
-import models.MentorVideoUser
 import models.MentorVisitUser
 
 

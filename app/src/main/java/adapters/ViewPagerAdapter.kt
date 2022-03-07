@@ -3,7 +3,7 @@ package adapters
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.example.teachme.*
+import com.islamxpro.teachme.*
 
 class ViewPagerAdapter(fragmentManager: FragmentManager): FragmentPagerAdapter(fragmentManager,
     BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
@@ -21,10 +21,13 @@ class ViewPagerAdapter(fragmentManager: FragmentManager): FragmentPagerAdapter(f
                 CourseFragment()
             }
             3->{
-                ChatFragment()
+                MentorsFragment()
             }
-            else->{
+            4->{
                 ProfileFragment()
+            }
+            else -> {
+                HomeFragment()
             }
         }
     }

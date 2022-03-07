@@ -1,12 +1,9 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import androidx.navigation.findNavController
-import com.example.passregistr.Utils.Back.isHome
-import com.example.teachme.databinding.ActivityMainBinding
+import Utils.Back.isHome
+import com.islamxpro.teachme.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

@@ -5,8 +5,8 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.R
-import com.example.teachme.databinding.ItemRvMentorBinding
+import com.islamxpro.teachme.R
+import com.islamxpro.teachme.databinding.ItemRvMentorBinding
 import models.MentorUser
 
 class MentorAdapter (val list: List<MentorUser>, var myClick: MyClick) : RecyclerView.Adapter<MentorAdapter.Vh>() {

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.teachme.SplashFragment"
+        android:name="com.islamxpro.teachme.SplashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.teachme.HomeFragment"
+        android:name="com.islamxpro.teachme.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.teachme.SignInFragment"
+        android:name="com.islamxpro.teachme.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.teachme.RegisterFragment"
+        android:name="com.islamxpro.teachme.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -45,7 +45,7 @@
     </fragment>
     <fragment
         android:id="@+id/createAccountFragment"
-        android:name="com.example.teachme.CreateAccountFragment"
+        android:name="com.islamxpro.teachme.CreateAccountFragment"
         android:label="fragment_create_account"
         tools:layout="@layout/fragment_create_account" >
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/numberRegistrationFragment"
-        android:name="com.example.teachme.NumberRegistrationFragment"
+        android:name="com.islamxpro.teachme.NumberRegistrationFragment"
         android:label="fragment_number_registration"
         tools:layout="@layout/fragment_number_registration" >
         <action
@@ -63,52 +63,52 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.teachme.SearchFragment"
+        android:name="com.islamxpro.teachme.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.teachme.ProfileFragment"
+        android:name="com.islamxpro.teachme.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/profileSetting"
-        android:name="com.example.teachme.ProfileSetting"
+        android:name="com.islamxpro.teachme.ProfileSetting"
         android:label="fragment_profile_setting"
         tools:layout="@layout/fragment_profile_setting" />
     <fragment
         android:id="@+id/mentorsFragment"
-        android:name="com.example.teachme.MentorsFragment"
+        android:name="com.islamxpro.teachme.MentorsFragment"
         android:label="fragment_mentors"
         tools:layout="@layout/fragment_mentors" />
     <fragment
         android:id="@+id/mentorsVisitProfile"
-        android:name="com.example.teachme.MentorsVisitProfile"
+        android:name="com.islamxpro.teachme.MentorsVisitProfile"
         android:label="fragment_mentors_visit_profile"
         tools:layout="@layout/fragment_mentors_visit_profile" />
     <fragment
         android:id="@+id/mentorsVisitVideoProfile"
-        android:name="com.example.teachme.MentorsVisitVideoProfile"
+        android:name="com.islamxpro.teachme.MentorsVisitVideoProfile"
         android:label="fragment_mentors_visit_video_profile"
         tools:layout="@layout/fragment_mentors_visit_video_profile" />
     <fragment
         android:id="@+id/courseFragment"
-        android:name="com.example.teachme.CourseFragment"
+        android:name="com.islamxpro.teachme.CourseFragment"
         android:label="fragment_course"
         tools:layout="@layout/fragment_course" />
     <fragment
         android:id="@+id/courseVisitFragment"
-        android:name="com.example.teachme.CourseVisitFragment"
+        android:name="com.islamxpro.teachme.CourseVisitFragment"
         android:label="fragment_course_visit"
         tools:layout="@layout/fragment_course_visit" />
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.example.teachme.ChatFragment"
+        android:name="com.islamxpro.teachme.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.teachme.MainFragment"
+        android:name="com.islamxpro.teachme.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
 </navigation>

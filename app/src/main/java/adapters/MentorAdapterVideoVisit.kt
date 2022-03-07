@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.databinding.ItemRvMainVideoBinding
+import com.islamxpro.teachme.databinding.ItemRvMainVideoBinding
 import models.MentorVideoUser
 
 class MentorAdapterVideoVisit (val context: Context,val list: List<MentorVideoUser>, var myClick: MyClick) : RecyclerView.Adapter<MentorAdapterVideoVisit.Vh>() {

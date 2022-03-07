@@ -5,9 +5,8 @@ import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.databinding.ItemRvVideoBinding
+import com.islamxpro.teachme.databinding.ItemRvVideoBinding
 import models.MentorVisitUser
-import models.MentorVideoUser
 
 class MentorAdapterVideo (val list: List<MentorVisitUser>, var myClick: MyClick) : RecyclerView.Adapter<MentorAdapterVideo.Vh>() {
 

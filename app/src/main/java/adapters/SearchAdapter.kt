@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.databinding.ItemSearchRvBinding
+import com.islamxpro.teachme.databinding.ItemSearchRvBinding
 import models.SearchUser
 
 class SearchAdapter (val list: List<SearchUser>, var myClick: MyClick) : RecyclerView.Adapter<SearchAdapter.Vh>() {

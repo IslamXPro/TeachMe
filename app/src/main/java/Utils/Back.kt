@@ -1,5 +1,6 @@
-package com.example.passregistr.Utils
+package Utils
 
 object Back {
     var isHome = false
+    var isRegistr = false
 }

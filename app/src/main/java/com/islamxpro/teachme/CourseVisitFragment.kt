@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.MyExtandableAdapter
 import android.os.Bundle
@@ -6,9 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.teachme.databinding.FragmentCourseVisitBinding
+import com.islamxpro.teachme.databinding.FragmentCourseVisitBinding
 import models.ChildUser
-import models.CourseInfo
 
 class CourseVisitFragment : Fragment() {
 

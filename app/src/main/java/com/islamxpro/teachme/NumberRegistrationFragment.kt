@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import android.os.Bundle
 import android.os.Handler
@@ -6,10 +6,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.example.passregistr.Utils.Back
-import com.example.teachme.databinding.FragmentNumberRegistrationBinding
+import Utils.Back
+import com.islamxpro.teachme.databinding.FragmentNumberRegistrationBinding
 import com.google.android.material.snackbar.Snackbar
 
 class NumberRegistrationFragment : Fragment() {

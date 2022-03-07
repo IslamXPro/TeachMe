@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.MentorAdapter
 import android.os.Bundle
@@ -6,11 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
-import com.example.passregistr.Utils.Back.isHome
-import com.example.teachme.databinding.FragmentMentorsBinding
+import Utils.Back.isHome
+import com.islamxpro.teachme.databinding.FragmentMentorsBinding
 import models.MentorUser
 
 

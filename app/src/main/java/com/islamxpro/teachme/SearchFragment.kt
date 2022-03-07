@@ -1,4 +1,4 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.SearchAdapter
 import android.os.Bundle
@@ -7,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import com.example.passregistr.Utils.Back.isHome
-import com.example.teachme.databinding.FragmentSearchBinding
+import Utils.Back.isHome
+import com.islamxpro.teachme.databinding.FragmentSearchBinding
 import models.SearchUser
 
 

@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.teachme.R
-import com.example.teachme.databinding.ItemRvBinding
+import com.islamxpro.teachme.R
+import com.islamxpro.teachme.databinding.ItemRvBinding
 import models.CourseUser
 
 class MainRecycleAdapter2 (val list: List<CourseUser>, var myClick: MyClick) : RecyclerView.Adapter<MainRecycleAdapter2.Vh>() {

@@ -1,19 +1,14 @@
-package com.example.teachme
+package com.islamxpro.teachme
 
 import adapters.MentorAdapterVideoVisit
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import models.MentorVideoUser
-import models.MentorVisitUser
-import com.example.teachme.databinding.FragmentMentorsVisitVideoProfileBinding
-import models.MentorUser
-import java.lang.RuntimeException
-
+import com.islamxpro.teachme.databinding.FragmentMentorsVisitVideoProfileBinding
 
 
 class MentorsVisitVideoProfile : Fragment() {
